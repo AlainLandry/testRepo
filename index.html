@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landry Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+        <!-- navigation bar  -->
+    <nav >
+      <div id="home">
+        <div class="profile_name">
+          Alain Landry AMADIANG
+          <div class="contact_info">
+            <img src="images/image_email.png" alt="contact_mail" />
+            landryamadiang@gmail.com
+          </div>
+          <div style="clear: both"></div>
+          <div class="contact_info">
+            <img src="images/image_telephone.png" alt="contact_telephone" />
+            681 13 62 35 / 691 232 091
+          </div>
+        </div>
+
+        <div class="topdiv">
+          <a class="topmenu" href="#aboutme">About me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+        </div>
+      </div>
+    </nav>
+    <!-- About me -->
+    <section id="about-me" class="container">
+        <div>
+            <img src="images/image_profil.jpg" alt="profile_amadiang" class="profile_image">
+        </div>
+        <div>
+            <h1>
+                Salut, je suis AMADIANG Alain Landry <img src="images/image_handwaving.png" alt="hands waving" width="60px">
+            </h1>
+            <p>
+                Je suis Cadre économiste à la Caisse Nationale de Prévoyance Sociale. J'ai travaillé au service de la trésorerie pendant deux ans.
+                Ensuite au service des marchés où j'ai participé au montage de plusieurs dossiers de construction d'immeubles. Après 6 années passées 
+                comme chef de service de l'administration générale, je suis actuellement actif dans les travaux de sécurité sociale proprement dit.
+                Je suis au quotidien l'évolution du traitement des dossiers de prestations sociales. Je m'interesse dépuis quelques années au developpement web
+            </p>
+        </div>
+    </section>
+    <!-- skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div style="clear: both;"></div>
+        <div class="all_skills">
+            <div class="skill">
+                <img src="images/image_skills_html.png" alt="image_html">
+                <h6>HTML</h6>
+                <p>6 ans d'experience</p>
+            </div>
+            
+            <div class="skill">
+                <img src="images/image_skills_css.png" alt="image_css">
+                <h6>CSS</h6>
+                <p>5 ans d'experience</p>
+            </div>
+            <div class="skill">
+                <img src="images/image_skills_javascript.png" alt="image_javascript">
+                <h6>JAVASCRIPT</h6>
+                <p>4 ans d'experience</p>
+            </div>
+            <div class="skill">
+                <img src="images/image_skills_react.png" alt="image_react">
+                <h6>REACT JS</h6>
+                <p>3 ans d'experience</p>
+            </div>
+            <div class="skill">
+                <img src="images/image_skills_python.png" alt="image_python">
+                <h6>PYTHON</h6>
+                <p>2 ans d'experience</p>
+            </div>
+            <div class="skill">
+                <img src="images/image_skills_django.png" alt="image_django">
+                <h6>DJANGO</h6>
+                <p>1 an d'experience</p>
+            </div>
+        </div>
+
+    </section>
+    <div style="clear: both;"></div>
+    <!-- projects -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div style="clear: both;"></div>
+        <div id="projects-container" class="projects-container">
+            <div class="project-card">
+                <h3>education</h3>
+                <ul>
+                    <li>création d'une application web où les élèves et étudiants ont accès aux cours</li>
+                </ul>
+            </div>
+            <div class="project-card">
+                <h3>commerce</h3>
+                <ul>
+                    <li>création d'un site web de vente de vêtements en ligne</li>
+                </ul>
+            </div>
+            <div class="project-card">
+                <h3>bourse du livre</h3>
+                <ul>
+                    <li>création d'un site web d'échange de livres en ligne</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    <!-- recommendations -->
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+        <div style="clear: both;"></div>
+        <div id="all-recommendations" class="all-recommendations">
+            <div class="recommendation">
+                <span>&#8220;</span>
+                Je suis Cadre économiste à la Caisse Nationale de Prévoyance Sociale. J'ai travaillé au service de la trésorerie pendant deux ans.
+                Ensuite au service des marchés où j'ai participé au montage de plusieurs dossiers de construction d'immeubles.
+            <span>&#8221;</span>
+            </div>
+            <div class="recommendation">
+                <span>&#8220;</span>
+                Je suis Cadre économiste à la Caisse Nationale de Prévoyance Sociale. J'ai travaillé au service de la trésorerie pendant deux ans.
+                Ensuite au service des marchés où j'ai participé au montage de plusieurs dossiers de construction d'immeubles. 
+            <span>&#8221;</span>
+            </div>
+            <div class="recommendation">
+                <span>&#8220;</span>
+                
+                Je suis au quotidien l'évolution du traitement des dossiers de prestations sociales. 
+                Je m'interesse dépuis quelques années au developpement web
+            <span>&#8221;</span>
+            </div>
+
+        </div>
+    </section>
+    <div style="clear: both;"></div>
+    <!-- recommendations form -->
+    <section id="contact">
+        <div class="flex-center">
+            <fieldset>
+                <legend class="introduction">Leave a recommendation</legend>
+                <input type="text" placeholder="Name(optional)"><br>
+                <textarea name="" id="new_recommendation" placeholder="Message" cols="500" rows="10"></textarea>
+                <div class="flex-center">
+                    <button id="recommend-btn">Submit</button>
+                </div>
+            </fieldset>
+        </div>
+
+    </section>
+    <div class="iconbutton">
+        <a href="#home">
+            
+        </a>
+    </div>
+    <div class="popup" id="popup" class="flex-center">
+        <img src="" alt="">
+        <h3></h3>
+        <button onclick="showPopup(false)">OK</button>
+    </div>
+    </div>
+
+  </body>
+</html>
